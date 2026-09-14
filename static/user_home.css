@@ -1,0 +1,18 @@
+body{
+  background-color: #EBDBC3;
+}
+
+.welcome {
+  width:300px;
+  background-color: #DDB3A1;
+  box-shadow: 0 0 3px rgba(0,0,0,0.3);
+  padding: 20px;
+  margin: 100px auto 0;
+  text-align: center;
+}
+
+.welcomeText{
+    font-size: 19px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+}

@@ -1,0 +1,58 @@
+body{
+  background-color: #EBDBC3;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.signup {
+  width:300px;
+  background-color: #DDB3A1;
+  box-shadow: 0 0 3px rgba(0,0,0,0.3);
+  padding: 20px;
+  margin: 20px auto 0;
+  text-align: center;
+}
+
+.signup h1 {
+   color: #000000;
+   margin: 14px;
+}
+
+.input-box {
+   border-radius: 20px;
+   padding: 8px;
+   margin: 10px;
+   border: 1px solid #ffffff;
+   width: 80%;
+   outline: none;
+
+}
+
+.signUpCheckButton {
+    background-color: white;
+    color: black;
+    width: 80%;
+    padding: 15px 10px;
+    border-radius: 20px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+
+.signUpCheckButton:hover {
+  background-color: #CBA08E;
+  color: white;
+}
+
+.failMessage{
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    color: red;
+}

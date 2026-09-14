@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="{{ url_for('static', filename='home.css') }}">
+<title>Expense Tracker</title>
+
+</head>
+<body>
+
+<h1 class="title"> Expense Tracker </h1>
+
+<div class="buttons">
+    <a href="{{ url_for('signup') }}" id="signUpButton">Sign Up</a>
+    <a href="{{ url_for('login') }}" id="loginButton">Login</a>
+</div>
+
+</body>
+</html>

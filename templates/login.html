@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="{{ url_for('static', filename='login.css') }}">
+<title>Expense Tracker</title>
+
+</head>
+<body>
+
+<div class="login">
+   <h1> Login</h1>
+   <form id = "loginForm" method="POST" action="{{ url_for('login') }}">
+   <input type="text" class="input-box" placeholder="Username" name="username" required>
+   <input type="password" class="input-box" placeholder="Password" name="password" required>
+   <button type="submit" class="loginCheckButton">Login</button>
+   </form>
+   {% if(result == "fail") %}
+        <p class="failMessage">Login failed. Try again!</p>
+   {% endif %}
+</div>
+
+If you don't have an account, you can sign up <a href="{{ url_for('signup') }}">here</a>
+
+</body>
+</html>
