@@ -10,9 +10,6 @@ class DBManager:
         cursor = connection.cursor()
         cursor.execute("PRAGMA foreign_keys = ON;")
 
-
-       # cursor.execute("DROP TABLE IF EXISTS user")
-
         cursor.execute("""
                 CREATE TABLE IF NOT EXISTS user (
                 id INTEGER PRIMARY KEY AUTOINCREMENT,
