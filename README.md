@@ -55,7 +55,7 @@ Tables:
 
 1. Clone the repository:
 
-git clone [your repo link]
+git clone https://github.com/eleftheriaval/expense_tracker.git
 
 cd expense_tracker
 
